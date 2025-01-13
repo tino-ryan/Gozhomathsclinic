@@ -96,6 +96,7 @@ p.username {
     background-color: whitesmoke;
     border-radius: 10px;
     width: 40%;
+    min-width:min-content;
     max-width: 300px; /* Limit card width */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -181,4 +182,36 @@ img, video {
     max-width: 100%;
     height: auto;
     display: block;
+}
+footer {
+    width: 100%;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    position: relative; /* Adjust as needed (e.g., fixed or sticky) */
+    left: 0;
+}
+
+
+.company{
+    font-family: Georgia;
+    color: white;
+}
+.fa {
+    padding: 10px;
+    font-size: 30x;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+.fa-instagram{
+    color: white; 
+}
+.fa-whatsapp{
+    color: white;
+}
+.fa-google{
+    color: white;
 }
